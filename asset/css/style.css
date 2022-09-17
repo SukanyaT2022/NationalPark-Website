@@ -1,0 +1,46 @@
+/*   Cardillac,Baskerville,Times,serif;*/
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar-nav a {
+  color: black;
+}
+.navbar {
+  background-color: #f4f6f6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: sticky;
+  top: 0%;
+  left: 0;
+  z-index: 1;
+}
+
+/*bigHero*/
+.bigHero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /*create gap in the middle bet 2 pics*/
+}
+.leftBox {
+  background-image: url('/asset/images/yellowstone-hotspring.jpg');
+  width: 49.5%;
+  height: 60vh;
+  background-size: cover; /*make picture too big fit perfectly*/
+}
+
+.rightBox {
+  background-image: url('/asset/images/river-yellowstone.jpg');
+  width: 49.5%;
+  height: 60vh;
+  background-size: cover; /*make picture too big fit perfectly*/
+}
+/*section1*/
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.section1 {
+  margin-top: 30px;
+  text-align: center;
+}
