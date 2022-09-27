@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Website</title>
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!--stlye.css link should be last-->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <!--this line is the main wwhole mav bar and narbar-brand target only logo-->
+        <div class="container-fluid">
+            <!--round logo incase if we nedd it-->
+            <!-- <a class="navbar-brand bg-success py-3 px-4 rounded-5 text-light fw-bold fs-" href="#">Y</a>-->
+            <!--bg-success change color green// py and px make it round shape-->
+
+            <a class="navbar-brand" href="index.html"><img src="asset/images/logo.png"></a>
+            <!--we custom css in logo-->
+            <!--above get logo from canvas-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item lg-md-5">
+                        <!--ms margin left--move text to the right side from logo// and we add md for responsive smaller screen -->
+                        <a class="nav-link"  href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activity.html">Activities & Must see</a>
+                    </li>
+                    <!--
+          <li class="nav-item">
+            <a class="nav-link" href="#">Where to stay & eat</a>
+          </li>
+          -->
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="info.html">More Information</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--end navBar-->
+
+    <section class="section1">
+        <h2 class="moreInfoHead">More Information:</h2>
+
+        <p class="text-middlesection"><b>More History & Interesting Facts</b>
+            -- The human history of the Yellowstone region goes back more than 11,000 years.
+            The stories of people in Yellowstone are preserved in archeological sites and
+            objects that convey information about past human activities in the region, and
+            in people’s connections to the land that provide a sense of place or identity.
+            Today, park managers use archeological and historical studies to help us understand
+            how people lived here in the past. Ethnography helps us learn about how groups of
+            people identify themselves and their connections to the park. Research is also
+            conducted to learn how people continue to affect and be affected by these places,
+            many of which have been relatively protected from human impacts. Some alterations
+            to the landscape, such as the construction of roads and other facilities, are
+            generally accepted as necessary to accommodate the needs of visitors today.
+            Information on the possible consequences of modern human activities, both
+            inside and outside the parks, is used to determine how best to preserve
+            Yellowstone’s natural and cultural resources, and the quality of the visitors’ experience.
+
+        </p>
+    </section>
+    <!--2 box-->
+
+    <section class="flexBoxOne">
+        <div class="mainFlexOne">
+
+            <div class="babyBox babyBoxBorder">
+                <img src="asset/images/Beautiful-Yellowstone.jpg">
+                <h3>Experience the beauty of Yellowstone National Park</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptates, eius. Delectus, beatae eligendi dignissimos quos ex quae praesentium
+                    possimus quibusdam.Ad vitae atque quidem debitis velit eius </p>
+                <a href="https://www.nps.gov/yell/planyourvisit/weather.htm">Learn More > </a>
+
+            </div>
+
+
+            <div class="babyBox babyBoxBorder">
+                <img src="asset/images/Yellowstone-Founding.jpg">
+                <h3>The Founding of Yellowstone</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Voluptates, eius. Delectus, beatae eligendi dignissimos quos ex quae praesentium
+                    possimus quibusdam. Ad vitae atque quidem debitis velit eius </p>
+                <a href="https://www.nps.gov/yell/planyourvisit/weather.htm">Learn More > </a>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+        <div class="socialMedia">
+            <div class="circle-aroundSocialmedia">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="circle-aroundSocialmedia">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="circle-aroundSocialmedia">
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="circle-aroundSocialmedia">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+
+        <div class="contactUs">
+            <h2>Contact Us</h2>
+
+            <h4>Mailing Address:</h4>
+            <p>PO Box 168 Yellowstone National Park , WY 82190-0168 </p>
+
+
+            <h4>Phone:</h4>
+            <p>307-344-7381</p>
+
+            <h4>Email:</h4>
+            <p>yellowstone.gov</p>
+
+        </div>
+        <!--copy right section-->
+
+    </footer>
+
+
+    <div class="copyRight">
+        <small>&copy; copyright groupOne</small>
+    </div>
+
+
+
+    <!--bootstrap link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <!--font awesome link-->
+    <script src="https://kit.fontawesome.com/42d8882816.js" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+</html>

@@ -1,13 +1,11 @@
-*{
-margin: 0;
-padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-html, body{
-overflow-x: hidden;
-
+html,
+body {
+  /*overflow-x: hidden;*/
 }
-
-
 
 /*   Cardillac,Baskerville,Times,serif;*/
 .navbar-brand img {
@@ -17,15 +15,23 @@ overflow-x: hidden;
 .navbar-nav a {
   color: black;
 }
+
+/*below add hover*/
+.nav-link:hover {
+color: darkorange;
+
+}
+
+
 .navbar {
   background-color: #f4f6f6;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: -webkit-sticky;
   position: sticky;
-  top: 0%;
-  left: 0;
+  top: 0;
+  left: 0%;
   z-index: 1;
 }
-
 /*bigHero*/
 .bigHero {
   width: 100%;
@@ -50,249 +56,342 @@ overflow-x: hidden;
   display: flex;
   justify-content: center;
   margin: 40px 0px;
-
 }
-.video iframe{
+.video iframe {
   width: 80%;
   height: 400px;
- 
 }
 .section1 {
-
   width: 70%;
   margin: 30px auto;
-  text-align: justify;/*all text equal both side*/
+  text-align: justify; /*all text equal both side*/
 }
 .section1 h1 {
-text-align: center;
-margin: 10px 0px;
+  text-align: center;
+  margin: 10px 0px;
 }
 /*change only history word to be bold and yellow*/
-b{
-font-size: 30px;
-color: #F1C40F ;
-
+b {
+  font-size: 30px;
+  color: #f1c40f;
 }
 
 /*customGrid section 4 small box*/
-.mainBox-grid{
+.mainBox-grid {
   width: 90%;
   height: auto;
   display: grid;
-  grid-template-columns:repeat(4,1fr);
-  grid-gap:20px;
-  grid-template-rows:auto ;/* we put height of the small boxes here*/
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: auto; /* we put height of the small boxes here*/
   margin: 40px auto 0px auto;
-
 }
-.smallCard{
+.smallCard {
   text-align: center;
   padding: 10px;
-  background-color: #F2F3F4;
- 
-
-
+  background-color: #f2f3f4;
 }
-.smallCard img{
+.smallCard img {
   width: 100%;
   height: 250px;
-  object-fit: cover;/*make pics fit prfectly without strect*/
+  object-fit: cover; /*make pics fit prfectly without strect*/
   margin-bottom: 20px;
-
 }
 
-.smallCard a{
-text-decoration: none;
-color: black;
-
+.smallCard a {
+  text-decoration: none;
+  color: black;
 }
 
 /*bottom-section-minivan-flexbox*/
-.mainBox-bottomSection{
+.mainBox-bottomSection {
   width: 80%;
   height: ;
   display: flex;
-  margin: 50px auto 0px auto ;
-  border: 1px solid #BFC9CA;
+  margin: 50px auto 0px auto;
+  border: 1px solid #bfc9ca;
 }
 
-.imgBox-leftside{
+.imgBox-leftside {
   width: 30%;
-
 }
 
-.imgBox-leftside img{
-  width: 100%;/*width 100% from the box size leftside*/
- 
+.imgBox-leftside img {
+  width: 100%; /*width 100% from the box size leftside*/
 }
 
-.textBox-rightside{
+.textBox-rightside {
   width: 70%;
   padding: 20px;
-
 }
 
-.box2{
-flex-direction: row-reverse;
-
+.box2 {
+  flex-direction: row-reverse;
 }
 
 /*social media-footer*/
-.fa-brands{
-font-size: 20px;
-
-
+.fa-brands {
+  font-size: 20px;
 }
 
-.socialMedia{
+.socialMedia {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.circle-aroundSocialmedia{
-margin: 10px;
-width: 50px;
-height: 50px;
-border: 2px solid #F1C40F ;
-border-radius: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-
+.circle-aroundSocialmedia {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #f1c40f;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-hr{
-width: 85%;
-height: 5px;/*thicker line*/
-margin: 40px auto;
-
+hr {
+  width: 85%;
+  height: 5px; /*thicker line*/
+  margin: 40px auto;
 }
 
-.contactUs{
-width: 50%;
-padding-left: 100px;
-
+.contactUs {
+  width: 50%;
+  padding-left: 100px;
 }
 
-.contactUs h2{
+.contactUs h2 {
   margin-bottom: 20px;
-
 }
-footer{
-display: flex;
-flex-wrap: wrap;/*make it responsive*/
-flex-direction: row-reverse;
-
+footer {
+  display: flex;
+  flex-wrap: wrap; /*make it responsive*/
+  flex-direction: row-reverse;
 }
 
-.copyRight{
-text-align: center;
-padding: 30px;
+.copyRight {
+  text-align: center;
+  padding: 30px;
+}
+/*second page--activities page*/
+
+
+/* bighero-activities page*/
+
+.bigHero-activities{
+  background-image: url("https://images.unsplash.com/photo-1566335865949-efa4a220d4cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8eWVsbG93JTIwc3RvbmUlMjBwYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+
+width: 50%;
+height: 60vh;
+margin: 30px auto;
+background-size: cover;
 
 }
+.bigHero-text{
+  width: 50%;
+height: auto;
+margin: auto;
+
+}
+
+.bigHero-text h2{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+/*middle section-activities page*/
+.flexBoxOne {
+  margin: 50px 0px;
+}
+
+.mainFlexOne {
+  width: 80%; /*use % for respnsive*/
+  height: auto; /* do not use percentage coz it always make problem*/
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; /*make box move down to the next row*/
+  justify-content: space-between;
+}
+
+.babyBox {
+  width: 45%;
+  overflow: hidden;
+}
+
+.babyBox img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.babyBox img:hover {
+  transform: scale(1.1);
+  transition: 2s all; /*smooth*/
+}
+
+/*more info page section*/
+.moreInfoHead{
+text-align: center; 
+}
+
+/*put border around 2 box*/
+
+.babyBoxBorder{
+  border: 2px solid lightgrey;
+  padding: 40px;
+  width: 49%;
+}
+
+.babyBoxBorder a{
+  text-decoration: none;
+color:black;
+font-weight: bold;
+}
+
+
 /*Ipad-mediaqueries*/
-@media  screen and (max-width: 900px) {
-  .mainBox-grid{
-    grid-template-columns:repeat(2,1fr);/*we change to show 2box each row for ipad*/
-   
+@media screen and (max-width: 900px) {
+  .mainBox-grid {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /*we change to show 2box each row for ipad*/
   }
- 
-  .imgBox-leftside{
+
+  .imgBox-leftside {
     width: 30%;
-    display: flex;/*we move minivan pic to center*/
+    display: flex; /*we move minivan pic to center*/
     align-items: center;
-  
   }
-    
+  /* media- queries for ipad --activities page*/
+
+  .bigHero-activities{
+
+  height: 30vh;/* we reduce size--reduce hight*/
+ 
+  }
+
 }
 
-/*phone-mediaqueries*/
-@media  screen and (max-width: 500px) {
-  .mainBox-grid{
-    grid-template-columns:1fr;
+/*phone-media-queries*/
+@media screen and (max-width: 500px) {
+  .mainBox-grid {
+    grid-template-columns: 1fr;
     /*we change to show only 1box each row for iphone-remove repeat/ left only 1 fr*/
-   
   }
   /*bighero make pic shorter-we change height*/
   .leftBox {
-   
     height: 30vh;
     background-size: cover; /*make picture too big fit perfectly*/
     background-position: center;
   }
-  
+
   .rightBox {
-   
     height: 30vh;
     background-size: cover; /*make picture too big fit perfectly*/
     background-position: center;
   }
+
+  
 
   /*make video size shorter*/
 
-.video iframe{
-  width: 80%;
-  height: 250px;
- 
-}
-
-/*text too long make it short put scrool bar*/
-.text-middlesection{
-  width: 100%;
-  height: 400px;
-  overflow: scroll;
-  margin: 30px auto;
-  text-align: justify;/*all text equal both side*/
-}
-
-
-
-/*minivan -flexbox section*/
-.mainBox-bottomSection{
- 
-  flex-direction: column;
-}
-
-.imgBox-leftside{
-  width: 100%;
-  /*we change from 30% to 100% for put pic on top and text at the booton*/
-
-}
-
-.textBox-rightside{
-  width: 100%; /*we change from 70% to 100% for put pic on top and text at the booton*/
-  padding: 20px;
-
-}
-
-.box2{
-flex-direction: column;
-
-}
-
-/*contact-Us*/
-.contactUs{
-  width: 100%;
-  padding-left: 30px;
-  
+  .video iframe {
+    width: 80%;
+    height: 250px;
   }
-  
-  footer{
 
-  flex-direction: column;/*move socual media on the side to bottom*/
-
-  
+  /*text too long make it short put scrool bar*/
+  .text-middlesection {
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+    margin: 30px auto;
+    text-align: justify; /*all text equal both side*/
   }
-  .socialMedia{
+
+  /*minivan -flexbox section*/
+  .mainBox-bottomSection {
+    flex-direction: column;
+  }
+
+  .imgBox-leftside {
+    width: 100%;
+    /*we change from 30% to 100% for put pic on top and text at the booton*/
+  }
+
+  .textBox-rightside {
+    width: 100%; /*we change from 70% to 100% for put pic on top and text at the booton*/
+    padding: 20px;
+  }
+
+  .box2 {
+    flex-direction: column;
+  }
+
+  /*contact-Us*/
+  .contactUs {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  footer {
+    flex-direction: column; /*move socual media on the side to bottom*/
+  }
+  .socialMedia {
     width: 100%;
     margin-bottom: 20px;
-    
+  }
+
+  /*phone media queries-activities page*/
+  .bigHero-activities{
+    width: 80%;
+  height: 30vh;
+ 
   
   }
+  .bigHero-text{
+    width: 80%;
+  height: 300px;
+  overflow: scroll;
+/*we increase width and increase height and add scroll*/
+  
+  }
+  
+ 
+  
+  .mainFlexOne {
+    
+    justify-content: center;
+  }
+  
+  .babyBox {
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0px;
+  }
+  
+  
+  .babyBox h3{
+text-align: center;
+  }
+  
+/*info page media quries- make pic shorter*/
+  .babyBoxBorder img{
+    height: 200px;
+  }
+
+
+
 
 
 }
 
-/*end mediaqueries for home page*/
+
+
+
